@@ -15,8 +15,8 @@ It uses Cloudflare KV as storage.
 Point your xBrowserSync plugin/app to your worker URL
 
 ## 修改
-'''javascript
+```javascript
 CREATE_NEW_BOOKMARKS_ENABLED = "true"   // 允许新开同步
 ALLOWED_ORIGINS = "https://url"         // 允许特定url
 MAX_SYNC_SIZE = "10485760"              // 最大文件大小限制10MB
-'''
+```
